@@ -1,0 +1,42 @@
+{
+  "name": "cathay-report-selector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "webpack-dev-server --config webpackdefault.config.js --port 5050 --open --hot --inline"
+  },
+  "author": "Bubba",
+  "license": "MIT",
+  "dependencies": {
+    "@types/material-ui": "^0.21.1",
+    "material-ui": "^0.20.0",
+    "mobx": "^3.6.1",
+    "mobx-react": "^4.4.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.9",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
+    "@types/jest": "^22.2.0",
+    "@types/react": "16.0.40",
+    "@types/react-dom": "16.0.4",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "html-webpack-plugin": "^3.0.6",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2",
+    "sass-loader": "^6.0.7",
+    "ts-jest": "^22.4.1",
+    "ts-loader": "^4.0.1",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.6.0",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
